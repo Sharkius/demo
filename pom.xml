@@ -67,6 +67,14 @@
 			<artifactId>spring-webmvc</artifactId>
 		</dependency>
 
+		
+		<!-- Databinding (for tests) -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
 		<!-- Faire des tests unitaires-->
 		<dependency>
 			<groupId>org.mockito</groupId>
